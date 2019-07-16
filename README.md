@@ -4,6 +4,8 @@ This is a bare bones application to run nextJS on Azure App Service. You can run
 
 It is important to leave the server.js file at the root of the project and to keep your build/start scripts the same unless you know what you're doing. 
 
+Do not put node_modules in your .gitignore
+
 Run Locally:
 npm install
 npm run build
